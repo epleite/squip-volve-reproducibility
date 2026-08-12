@@ -6,11 +6,11 @@ This repository accompanies the manuscript **“Scale-Quotient Information-Geome
 
 The code implements the nuisance-profiled information metric
 
-\[
+$$
 G_Q = G_{uu} - G_{u\eta}G_{\eta\eta}^{-1}G_{\eta u},
-\]
+$$
 
-its horizontal-lift interpretation, eigendirectional authority \(A_i^Q=\lambda_i^Q/(1+\lambda_i^Q)\), and the property-axis authority matrix \(A_Q=G_Q(I+G_Q)^{-1}\).
+its horizontal-lift interpretation, eigendirectional authority $A_i^Q=\lambda_i^Q/(1+\lambda_i^Q)$, and the property-axis authority matrix $A_Q=G_Q(I+G_Q)^{-1}$.
 
 Three layers of verification are provided:
 
