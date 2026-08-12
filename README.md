@@ -87,4 +87,4 @@ The repository contains only the scientific implementation, compact benchmark in
 
 ## Citation
 
-See `CITATION.cff`. Please cite the associated GEOPHYSICS paper once bibliographic details are assigned.
+Please cite this software using the metadata provided in `CITATION.cff`. Citation details for the accompanying manuscript will be added if and when they become available.

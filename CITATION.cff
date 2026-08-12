@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite the associated GEOPHYSICS manuscript and this repository release."
+message: "If you use this software, please cite this repository release. Citation details for the accompanying manuscript will be added if and when they become available."
 title: "SQuIP: Scale-Quotient Information-Geometric Petrophysical Inversion"
 type: software
 authors:
