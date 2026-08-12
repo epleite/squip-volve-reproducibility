@@ -25,7 +25,7 @@ T = np.array([[1.2, 0.25], [-0.1, 0.85]])
 Gq2 = quotient_metric(Guu, Gue @ T, T.T @ Gee @ T)
 inv_err = np.linalg.norm(Gq - Gq2) / np.linalg.norm(Gq)
 
-print("SQ-IGPI core verification")
+print("SQuIP core verification")
 print("eigenvalues G_Q:", np.array2string(lam, precision=6))
 print("directional authority:", np.array2string(ai, precision=6))
 print("property-axis authority diag:", np.array2string(np.diag(authority_matrix(Gq)), precision=6))

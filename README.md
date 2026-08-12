@@ -1,4 +1,4 @@
-# Scale-quotient petrophysical information geometry — Volve reproducibility package
+# SQuIP: Scale-Quotient Information-Geometric Petrophysical Inversion — Volve Reproducibility Package
 
 This repository accompanies the manuscript **“Scale-Quotient Information-Geometric Petrophysical Inversion: Separating Petrophysical Information from Seismic Scale Uncertainty.”** It is designed so a reviewer can verify the mathematical construction and rerun the compact Volve-derived benchmark without downloading the full Volve archive.
 

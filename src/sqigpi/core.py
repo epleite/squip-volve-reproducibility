@@ -1,4 +1,4 @@
-"""Linear-algebra core of scale-quotient petrophysical information geometry.
+"""Linear-algebra core of SQuIP: Scale-Quotient Information-Geometric Petrophysical Inversion.
 
 The functions in this module are intentionally small and dependency-light. They
 implement the exact equations used in the manuscript and are suitable for unit

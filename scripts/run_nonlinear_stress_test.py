@@ -40,7 +40,7 @@ def run(nmc=5, seed=20260812, out=None):
             sf=[np.zeros(3),np.clip(rng.normal(0,.65,3),-2.0,2.0)]
             sj=[np.zeros(4),np.r_[np.clip(rng.normal(0,.65,3),-2.0,2.0),np.clip(rng.normal(0,.3),-.8,1.0)]]
             rf=solve(nlp_fixed,bounds_fixed,y,sf); rj=solve(nlp_joint,bounds_joint,y,sj)
-            for name,est,ehat in [('Fixed-scale MAP',rf.x,np.nan),('SQ-IGPI joint nuisance',rj.x[:3],rj.x[3])]:
+            for name,est,ehat in [('Fixed-scale MAP',rf.x,np.nan),('SQuIP joint nuisance',rj.x[:3],rj.x[3])]:
                 rows.append({'Scale_m':scale,'run':ir,'Method':name,'RMSE_u':np.sqrt(np.mean((est-cfg.u_true)**2)),
                              'eta_hat':ehat,'eta_error':ehat-eta if np.isfinite(ehat) else np.nan})
     df=pd.DataFrame(rows)
