@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated GEOPHYSICS manuscript and this repository release."
+title: "SQ-IGPI: scale-quotient information geometry for seismic-petrophysical inversion"
+type: software
+authors:
+  - family-names: "Leite"
+    given-names: "Emilson Pereira"
+version: 1.0.0
+date-released: 2026-08-12
+license: MIT
+keywords:
+  - seismic inversion
+  - petrophysical inversion
+  - Bayesian inverse problems
+  - Fisher information
+  - nuisance parameters
+  - Volve
