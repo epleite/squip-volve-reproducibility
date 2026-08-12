@@ -1,0 +1,9 @@
+Metric,Value_min,Value_max,Interpretation
+A1_Q range across broad surrogate family at 4 m,0.9889777213663726,0.9989861827907331,leading direction remains strongly informed
+A2_Q range across broad surrogate family at 4 m,0.9263116053798034,0.9974603006933317,second direction remains strongly informed
+A3_Q range across broad surrogate family at 4 m,0.36840338575315257,0.7133584261261605,weak direction magnitude is model-form sensitive
+A3_Q range across broad surrogate family at 7 m,0.16670256702881975,0.5214379308735032,weak direction remains the most scale-sensitive
+"Top-2 principal angle, broad alternatives vs reference at 4 m (deg)",30.525407259978714,82.94058845684987,petrophysical composition can rotate under model-form change
+"Top-2 principal angle, near-reference cubic regularization (deg)",8.537736462515939e-07,4.306721639497349,small tuning changes do not destabilize the strong subspace
+Surrogate variants with A3_Q(7m) < A3_Q(4m),5.0,5.0,scale-induced weakening occurs for every tested surrogate
+Surrogate variants with deff_loss(7m) > deff_loss(4m),5.0,5.0,quotient scale loss increases under stronger mismatch for every tested surrogate

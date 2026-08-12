@@ -1,0 +1,2 @@
+seed,N_MC_per_scale,nonlinear_methods,tau_matched_curvature,sigma_noise,rho_vertical,rho_angle,eta_prior_sd,posterior_scenarios,posterior_chains,posterior_steps_per_chain,posterior_burn
+20260812,50,robust multistart + L-BFGS polish,2.85022522,0.01042766,0.7599900383162808,0.22752677458838008,0.9,4m run46; 7m run15,4,3200,900

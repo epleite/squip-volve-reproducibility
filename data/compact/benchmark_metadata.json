@@ -1,0 +1,41 @@
+{
+  "paper_title": "Scale-Quotient Information-Geometric Petrophysical Inversion: Separating Petrophysical Information from Seismic Scale Uncertainty",
+  "reference_seed": 20260812,
+  "hugin_intervals_m": {
+    "19A": [
+      3033.9554192758487,
+      3152.379704590036
+    ],
+    "BT2": [
+      3153.9039509004597,
+      3295.829657180306
+    ]
+  },
+  "prior_scales_phi_vsh_sw": [
+    0.03,
+    0.08,
+    0.15
+  ],
+  "controlled_truth_u": [
+    0.6,
+    -0.5,
+    0.25
+  ],
+  "eta_prior_sd": 0.9,
+  "nominal_scale_m": 4.0,
+  "true_scale_scenarios_m": [
+    4.0,
+    5.0,
+    7.0
+  ],
+  "dominant_wavelet_hz": 22.0,
+  "positive_angle_range_deg": [
+    0.5102040816,
+    25.0
+  ],
+  "n_positive_angles": 25,
+  "vertical_noise_lag1": 0.7599900383162808,
+  "angular_noise_lag1": 0.22752677458838008,
+  "noise_sigma": 0.01042766,
+  "nonlinear_mc_per_scale": 50
+}
